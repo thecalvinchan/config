@@ -13,8 +13,12 @@
   - `ZSH="$XDG_CONFIG_HOME/oh-my-zsh" sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 1. Copy `.zshenv` to `$HOME`
   - `ln -s $PWD/zsh/.zshenv ~/.zshenv`
+
+#### Oh-My-Zsh Plugins
 1. Install zsh-nvm
   - `git clone https://github.com/lukechilds/zsh-nvm "$ZSH/custom/plugins/zsh-nvm"`
+1. Install git-open
+  - `git clone https://github.com/paulirish/git-open.git "$ZSH_CUSTOM/plugins/git-open"`
 
 ## Neovim
 1. Install neovim
