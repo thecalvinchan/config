@@ -101,6 +101,8 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias vi="nvim"
 
+alias gto="git-open"
+
 # alias tmux for pretty colors
 alias tmux="TERM=screen-256color-bce tmux"
 
