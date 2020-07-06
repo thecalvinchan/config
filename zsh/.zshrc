@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/calvin/.oh-my-zsh"
+export ZSH="/Users/calvin/.config/oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -68,7 +68,7 @@ ZSH_THEME="frisk"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-nvm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,6 +97,29 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-if [ -f ~/.zsh_custom ]; then
-     source ./.zsh_custom
-fi
+
+alias vim="nvim"
+alias vi="nvim"
+
+# alias tmux for pretty colors
+alias tmux="TERM=screen-256color-bce tmux"
+
+## git config variables
+
+ZSH_THEME_GIT_PROMPT_PREFIX="[git:"
+ZSH_THEME_GIT_PROMPT_SUFFIX="]$reset_color"
+ZSH_THEME_GIT_PROMPT_DIRTY="$fg[red]"
+ZSH_THEME_GIT_PROMPT_CLEAN="$fg[green]"
+ZSH_THEME="frisk"
+
+# Use fd instead of find for fzf
+## FZF
+export FZF_DEFAULT_COMMAND='fd --type f'
+FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
+
+
+ag() {
+  command ag \
+    -p "$(git rev-parse --is-inside-work-tree &>/dev/null && echo "$(git rev-parse --show-toplevel)/.gitignore")" \
+    "$@"
+}

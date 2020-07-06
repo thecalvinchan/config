@@ -5,8 +5,13 @@
   - If you cloned without `--recursive` flag, run the following:
     - `git submodule init`
     - `git submodule update`
+1. Set XDG_CONFIG_HOME
+  - `export XDG_CONFIG_HOME=$HOME/.config`
 1. Install [oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
-  - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+  - `ZSH="$XDG_CONFIG_HOME/oh-my-zsh" sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+1. Copy `.zshenv` to `$HOME`
+1. Install zsh-nvm
+  - `git clone https://github.com/lukechilds/zsh-nvm "$ZSH/custom/plugins/zsh-nvm"`
 1. Install neovim
   - `brew install neovim` 
 1. Install [vim-plug](https://github.com/junegunn/vim-plug) for neovim
