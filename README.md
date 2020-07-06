@@ -1,18 +1,19 @@
-## Steps
+## XDG Directories
 
-1. `git clone https://github.com/thecalvinchan/config.git`
-  - This should also initialize and update all submodules
-  - If you cloned without `--recursive` flag, run the following:
-    - `git submodule init`
-    - `git submodule update`
-1. Set XDG_CONFIG_HOME
-  - `export XDG_CONFIG_HOME=$HOME/.config`
+1. XDG_CONFIG_HOME
+  - `git clone https://github.com/thecalvinchan/config.git ~/.config`
+1. XDG_DATA_HOME
+  - `mkdir ~/.local/share`
+1. XDG_CACHE_HOME
+  - `mkdir ~/.cache`
 
 ## Zsh and Oh-My-Zsh
 1. Install [oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
   - `ZSH="$XDG_CONFIG_HOME/oh-my-zsh" sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 1. Copy `.zshenv` to `$HOME`
   - `ln -s $PWD/zsh/.zshenv ~/.zshenv`
+1. Create dir for `.zsh_history`
+  - `mkdir $XDG_DATA_HOME/zsh`
 
 #### Oh-My-Zsh Plugins
 1. Install zsh-nvm
