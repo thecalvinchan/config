@@ -104,14 +104,6 @@ alias vi="nvim"
 # alias tmux for pretty colors
 alias tmux="TERM=screen-256color-bce tmux"
 
-## git config variables
-
-ZSH_THEME_GIT_PROMPT_PREFIX="[git:"
-ZSH_THEME_GIT_PROMPT_SUFFIX="]$reset_color"
-ZSH_THEME_GIT_PROMPT_DIRTY="$fg[red]"
-ZSH_THEME_GIT_PROMPT_CLEAN="$fg[green]"
-ZSH_THEME="frisk"
-
 # Use fd instead of find for fzf
 ## FZF
 export FZF_DEFAULT_COMMAND='fd --type f'
