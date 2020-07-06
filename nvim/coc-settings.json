@@ -1,0 +1,21 @@
+{
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.autoFix": true,
+  "eslint.autoFixOnSave": true,
+  "solargraph.commandPath": "/Users/calvin/.rvm/gems/ruby-2.6.5/bin/solargraph",
+  "solargraph.useBundler": true,
+  "solargraph.hover": true,
+  "solargraph.autoformat": true,
+  "solargraph.formatting": true,
+  "solargraph.symbols": true,
+  "solargraph.definitions": true,
+  "solargraph.completion": true,
+  "solargraph.diagnostics": true,
+  "tsserver.log": "normal",
+  "coc.preferences.formatOnSaveFiletypes": ["ruby"]
+}
