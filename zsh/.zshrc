@@ -113,9 +113,12 @@ alias tmux="TERM=screen-256color-bce tmux"
 export FZF_DEFAULT_COMMAND='fd --type f'
 FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
 
-
 ag() {
   command ag \
     -p "$(git rev-parse --is-inside-work-tree &>/dev/null && echo "$(git rev-parse --show-toplevel)/.gitignore")" \
     "$@"
 }
+
+if [[ -f $XDG_CONFIG_HOME/zsh/.zsh_custom ]]; then
+  source $XDG_CONFIG_HOME/zsh/.zsh_custom
+fi

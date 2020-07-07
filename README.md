@@ -13,7 +13,7 @@
 1. Copy `.zshenv` to `$HOME`
   - `ln -s $PWD/zsh/.zshenv ~/.zshenv`
 1. Create dir for `.zsh_history`
-  - `mkdir $XDG_DATA_HOME/zsh`
+  - `mkdir $XDG_CACHE_HOME/zsh`
 
 #### Oh-My-Zsh Plugins
 1. Install zsh-nvm
