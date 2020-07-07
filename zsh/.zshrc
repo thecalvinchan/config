@@ -108,6 +108,8 @@ alias gto="git-open"
 # alias tmux for pretty colors
 alias tmux="TERM=screen-256color-bce tmux"
 
+alias ll="ls -al"
+
 # Use fd instead of find for fzf
 ## FZF
 export FZF_DEFAULT_COMMAND='fd --type f'
