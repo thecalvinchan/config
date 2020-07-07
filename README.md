@@ -35,6 +35,13 @@
 1. Install [fzf](https://github.com/junegunn/fzf)
   - `. ./vendor/fzf/install`
 
+## Hammerspoon
+1. Install Hammerspoon
+  - `brew cask install hammerspoon`
+1. Install [ShiftIt Spoon](https://github.com/peterklijn/hammerspoon-shiftit)
+1. Change hammerspoon config directory
+  - `defaults write org.hammerspoon.Hammerspoon MJConfigFile "~/.config/hammerspoon/init.lua"`
+
 ## FD and FZF
 
 [FD](https://github.com/sharkdp/fd) is a find alternative used by fzf to find
