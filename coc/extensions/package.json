@@ -1,1 +1,8 @@
-{"dependencies":{}}
+{
+  "dependencies": {
+    "coc-eslint": ">=1.2.7",
+    "coc-json": ">=1.2.6",
+    "coc-solargraph": ">=1.1.6",
+    "coc-tsserver": ">=1.5.2"
+  }
+}

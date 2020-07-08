@@ -26,6 +26,9 @@
   - `brew install neovim` 
 1. Install [vim-plug](https://github.com/junegunn/vim-plug) for neovim
   - `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
+  - Open nvim and run `:PlugInstall`
+1. Install Coc Plugins
+  - `cd coc/extensions && npm install`
 
 ## FD
 1. Install [FD](https://github.com/sharkdp/fd)
