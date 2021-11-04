@@ -8,10 +8,10 @@
   - `mkdir ~/.cache`
 
 ## Zsh and Oh-My-Zsh
-1. Install [oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
-  - `ZSH="$XDG_CONFIG_HOME/oh-my-zsh" sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 1. Copy `.zshenv` to `$HOME`
   - `ln -s $PWD/zsh/.zshenv ~/.zshenv`
+1. Install [oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
+  - `ZSH="$XDG_CONFIG_HOME/oh-my-zsh" sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 1. Create dir for `.zsh_history`
   - `mkdir $XDG_CACHE_HOME/zsh`
 
