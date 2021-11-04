@@ -124,3 +124,5 @@ ag() {
 if [[ -f $XDG_CONFIG_HOME/zsh/.zsh_custom ]]; then
   source $XDG_CONFIG_HOME/zsh/.zsh_custom
 fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
