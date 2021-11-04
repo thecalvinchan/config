@@ -24,6 +24,7 @@
 ## Homebrew
 1. Install homebrew
   - https://brew.sh
+1. No need to add homebrew to path as that is taken care of in `.config/zsh/.zprofile`
 
 ## FD and FZF
 
