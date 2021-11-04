@@ -25,6 +25,16 @@
 1. Install homebrew
   - https://brew.sh
 
+## FD
+1. Install [FD](https://github.com/sharkdp/fd)
+  - `brew install fd`
+
+## FZF
+1. Install [fzf](https://github.com/junegunn/fzf)
+  - `brew install fzf`
+  - # To install [useful key bindings and fuzzy completion](https://github.com/junegunn/fzf#key-bindings-for-command-line):
+    - `$(brew --prefix)/opt/fzf/install`
+
 ## Neovim
 1. Install neovim
   - `brew install neovim` 
@@ -34,14 +44,6 @@
 1. Install Coc Plugins
   - `cd coc/extensions && npm install`
   - This requires `npm` to be installed. `zsh-nvm` will handle installing nvm, so open a new terminal window and run `nvm install`.
-
-## FD
-1. Install [FD](https://github.com/sharkdp/fd)
-  - `brew install fd`
-
-## FZF
-1. Install [fzf](https://github.com/junegunn/fzf)
-  - `. ./vendor/fzf/install`
 
 ## Hammerspoon
 1. Install Hammerspoon
