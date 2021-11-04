@@ -21,6 +21,10 @@
 1. Install git-open
   - `git clone https://github.com/paulirish/git-open.git "$ZSH_CUSTOM/plugins/git-open"`
 
+## Homebrew
+1. Install homebrew
+  - https://brew.sh
+
 ## Neovim
 1. Install neovim
   - `brew install neovim` 
@@ -29,6 +33,7 @@
   - Open nvim and run `:PlugInstall`
 1. Install Coc Plugins
   - `cd coc/extensions && npm install`
+  - This requires `npm` to be installed. `zsh-nvm` will handle installing nvm, so open a new terminal window and run `nvm install`.
 
 ## FD
 1. Install [FD](https://github.com/sharkdp/fd)
