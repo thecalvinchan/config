@@ -48,7 +48,7 @@
 
 ## Hammerspoon
 1. Install Hammerspoon
-  - `brew cask install hammerspoon`
+  - `brew install --cask hammerspoon`
 1. Install [ShiftIt Spoon](https://github.com/peterklijn/hammerspoon-shiftit)
 1. Change hammerspoon config directory
   - `defaults write org.hammerspoon.Hammerspoon MJConfigFile "~/.config/hammerspoon/init.lua"`
