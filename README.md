@@ -25,11 +25,17 @@
 1. Install homebrew
   - https://brew.sh
 
-## FD
+## FD and FZF
+
+[FD](https://github.com/sharkdp/fd) is a find alternative used by fzf to find
+files while respecting `.gitignore`
+
+```
+fd --type f | fzf
+```
+
 1. Install [FD](https://github.com/sharkdp/fd)
   - `brew install fd`
-
-## FZF
 1. Install [fzf](https://github.com/junegunn/fzf)
   - `brew install fzf`
   - To install [useful key bindings and fuzzy completion](https://github.com/junegunn/fzf#key-bindings-for-command-line):
@@ -49,18 +55,10 @@
 ## Hammerspoon
 1. Install Hammerspoon
   - `brew install --cask hammerspoon`
-1. Install [ShiftIt Spoon](https://github.com/peterklijn/hammerspoon-shiftit)
+1. [ShiftIt Spoon](https://github.com/peterklijn/hammerspoon-shiftit) shoudl already be installed
 1. Change hammerspoon config directory
   - `defaults write org.hammerspoon.Hammerspoon MJConfigFile "~/.config/hammerspoon/init.lua"`
-
-## FD and FZF
-
-[FD](https://github.com/sharkdp/fd) is a find alternative used by fzf to find
-files while respecting `.gitignore`
-
-```
-fd --type f | fzf
-```
+- Make sure that Hammerspoon has [accessibility permissions](https://github.com/peterklijn/hammerspoon-shiftit#step-4)
 
 ## Fonts
 
