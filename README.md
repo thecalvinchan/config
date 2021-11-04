@@ -32,8 +32,9 @@
 ## FZF
 1. Install [fzf](https://github.com/junegunn/fzf)
   - `brew install fzf`
-  - # To install [useful key bindings and fuzzy completion](https://github.com/junegunn/fzf#key-bindings-for-command-line):
+  - To install [useful key bindings and fuzzy completion](https://github.com/junegunn/fzf#key-bindings-for-command-line):
     - `$(brew --prefix)/opt/fzf/install`
+    - This will generate `.fzf.zsh`. When asked, do not add to shell configuration files, since we already handle that in `.config/zsh/.zshrc`
 
 ## Neovim
 1. Install neovim
