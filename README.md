@@ -58,7 +58,7 @@ fd --type f | fzf
 1. [ShiftIt Spoon](https://github.com/peterklijn/hammerspoon-shiftit) shoudl already be installed
 1. Change hammerspoon config directory
   - `defaults write org.hammerspoon.Hammerspoon MJConfigFile "~/.config/hammerspoon/init.lua"`
-- Make sure that Hammerspoon has [accessibility permissions](https://github.com/peterklijn/hammerspoon-shiftit#step-4)
+1. Make sure that Hammerspoon has [accessibility permissions](https://github.com/peterklijn/hammerspoon-shiftit#step-4)
 
 ## Fonts
 
