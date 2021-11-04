@@ -62,3 +62,7 @@ fd --type f | fzf
 ## Fonts
 
 [Inconsolata Font](http://www.levien.com/type/myfonts/inconsolata.html)
+
+## Theme
+
+[Iceberg for iTerm2](https://github.com/Arc0re/Iceberg-iTerm2)
