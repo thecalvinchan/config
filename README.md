@@ -61,6 +61,10 @@ fd --type f | fzf
   - `defaults write org.hammerspoon.Hammerspoon MJConfigFile "~/.config/hammerspoon/init.lua"`
 1. Make sure that Hammerspoon has [accessibility permissions](https://github.com/peterklijn/hammerspoon-shiftit#step-4)
 
+## Karabiner-Elements
+1. Install [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements/blob/main/README.md)
+   - `brew install --cask karabiner-elements`
+
 ## Fonts
 
 [Inconsolata Font](http://www.levien.com/type/myfonts/inconsolata.html)
