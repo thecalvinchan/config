@@ -1,10 +1,10 @@
 ## XDG Directories
 
-1. XDG_CONFIG_HOME
+1. `XDG_CONFIG_HOME`
   - `git clone https://github.com/thecalvinchan/config.git ~/.config`
-1. XDG_DATA_HOME
+1. `XDG_DATA_HOME`
   - `mkdir ~/.local/share`
-1. XDG_CACHE_HOME
+1. `XDG_CACHE_HOME`
   - `mkdir ~/.cache`
 
 ## Zsh and Oh-My-Zsh
